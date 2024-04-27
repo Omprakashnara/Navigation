@@ -1,0 +1,63 @@
+/*body {
+    margin: 0;
+    font-family: "Roboto", Arial, sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #d5d4d4;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+*/
+.Logoutstyle{
+    position: absolute;
+   top: 10px;
+    right: 3px;
+    background-color: transparent;
+    color: blue;
+    border: none;
+    cursor: pointer;
+  
+}
+.button-style {
+    background-color: rgb(74, 139, 219);
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.style1 {
+    background-color: rgb(64, 117, 183);
+    color: white;
+    border: none;
+    position: fixed; /* Position the button relative to the browser window */
+    top: 20px; /* Distance from the top of the window */
+    left: 20px; /* Distance from the left edge of the window */
+    padding: 5px 5px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+.style1:hover{
+    background-color: rgb(67, 67, 200);
+}
+
+.button-style:hover {
+    background-color: navy;
+}
+
+.weather-page{
+    position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        overflow-y: scroll;
+       background-color: rgb(203, 220, 89);
+        
+}
